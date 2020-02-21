@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  wuhangwallpaper
+
+  Created by mac on 2020/1/16.
+  Copyright © 2020 bh. All rights reserved.
+*/
+
+
+color = "颜色";
+font = "字体";
+production = "作品";
+textWallPaper = "文字壁纸";
+about = "关于应用";
+word = "文字";
+fontName = "字体";
+type = "字号";
+fontSize = "样式";
+textColor = "字体色";
+alignment = "对齐";
+textEdge = "字间距";
+lineWidth = "行宽";
+lineEdge = "行间距";
+borderWidth = "边框宽";
+borderColor = "边框色";
+none = "无";
+narrow = "窄";
+wide = "宽";
+medium = "中等";
+share = "分享";
+version = "版本";
+feedback = "意见反馈";
+backgroundColor = "背景色";
+aliLeft = "左对齐";
+aliCenter = "居中";
+aliRight = "右对齐";
+warmTips = "";//"点击开始编辑";//"\t温馨提示：\n（1）点击屏幕设置壁纸\n（2）长按屏幕保存壁纸\n（3）左右滑动切换背景色";
+fontShown = "样式";

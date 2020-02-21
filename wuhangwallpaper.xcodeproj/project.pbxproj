@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0449685B23CEEF8100CC3F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449685A23CEEF8100CC3F67 /* AppDelegate.swift */; };
+		0449685D23CEEF8100CC3F67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449685C23CEEF8100CC3F67 /* SceneDelegate.swift */; };
+		0449685F23CEEF8100CC3F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449685E23CEEF8100CC3F67 /* ViewController.swift */; };
+		0449686223CEEF8100CC3F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449686023CEEF8100CC3F67 /* Main.storyboard */; };
+		0449686423CEEF8300CC3F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0449686323CEEF8300CC3F67 /* Assets.xcassets */; };
+		0449686723CEEF8300CC3F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449686523CEEF8300CC3F67 /* LaunchScreen.storyboard */; };
+		044968A723CEF0B000CC3F67 /* UIViewController+controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449686F23CEF0AF00CC3F67 /* UIViewController+controller.swift */; };
+		044968A823CEF0B000CC3F67 /* UIImage+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687023CEF0AF00CC3F67 /* UIImage+image.swift */; };
+		044968A923CEF0B000CC3F67 /* NSObject+Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687123CEF0AF00CC3F67 /* NSObject+Object.swift */; };
+		044968AA23CEF0B000CC3F67 /* NSString+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687223CEF0AF00CC3F67 /* NSString+string.swift */; };
+		044968AB23CEF0B000CC3F67 /* UIFont+font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687323CEF0AF00CC3F67 /* UIFont+font.swift */; };
+		044968AC23CEF0B000CC3F67 /* UIView+view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687423CEF0AF00CC3F67 /* UIView+view.swift */; };
+		044968AD23CEF0B000CC3F67 /* UIColor+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687523CEF0AF00CC3F67 /* UIColor+color.swift */; };
+		044968AE23CEF0B000CC3F67 /* String+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687623CEF0AF00CC3F67 /* String+string.swift */; };
+		044968AF23CEF0B000CC3F67 /* YZWMathSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687723CEF0AF00CC3F67 /* YZWMathSize.swift */; };
+		044968B023CEF0B000CC3F67 /* AAQConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687823CEF0AF00CC3F67 /* AAQConst.swift */; };
+		044968B123CEF0B000CC3F67 /* NSString+config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687923CEF0AF00CC3F67 /* NSString+config.swift */; };
+		044968B223CEF0B000CC3F67 /* AAQColorSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687B23CEF0AF00CC3F67 /* AAQColorSingle.swift */; };
+		044968B323CEF0B000CC3F67 /* AAQColorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687D23CEF0AF00CC3F67 /* AAQColorListCell.swift */; };
+		044968B423CEF0B000CC3F67 /* AAQColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687E23CEF0AF00CC3F67 /* AAQColorListView.swift */; };
+		044968B523CEF0B000CC3F67 /* AAQColorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449687F23CEF0AF00CC3F67 /* AAQColorListViewController.swift */; };
+		044968B623CEF0B000CC3F67 /* YZWBaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688123CEF0AF00CC3F67 /* YZWBaseTableCell.swift */; };
+		044968B723CEF0B000CC3F67 /* YZWAboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688223CEF0AF00CC3F67 /* YZWAboutController.swift */; };
+		044968B823CEF0B000CC3F67 /* YZWAboutTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688323CEF0AF00CC3F67 /* YZWAboutTableCell.swift */; };
+		044968B923CEF0B000CC3F67 /* AAQFontCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688523CEF0AF00CC3F67 /* AAQFontCell.swift */; };
+		044968BA23CEF0B000CC3F67 /* AAQFontListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688623CEF0AF00CC3F67 /* AAQFontListView.swift */; };
+		044968BB23CEF0B000CC3F67 /* AAQFontListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688723CEF0AF00CC3F67 /* AAQFontListController.swift */; };
+		044968BC23CEF0B000CC3F67 /* AAQColorCollectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688923CEF0B000CC3F67 /* AAQColorCollectView.swift */; };
+		044968BD23CEF0B000CC3F67 /* AAQColorCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688A23CEF0B000CC3F67 /* AAQColorCollectionCell.swift */; };
+		044968BE23CEF0B000CC3F67 /* AAQPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688D23CEF0B000CC3F67 /* AAQPreviewController.swift */; };
+		044968BF23CEF0B000CC3F67 /* AAQSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449688F23CEF0B000CC3F67 /* AAQSettingView.swift */; };
+		044968C023CEF0B000CC3F67 /* AAQSetColorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689123CEF0B000CC3F67 /* AAQSetColorRowView.swift */; };
+		044968C123CEF0B000CC3F67 /* AAQSetTextRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689223CEF0B000CC3F67 /* AAQSetTextRowView.swift */; };
+		044968C223CEF0B000CC3F67 /* AAQSetFontRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689323CEF0B000CC3F67 /* AAQSetFontRowView.swift */; };
+		044968C323CEF0B000CC3F67 /* AAQSetImageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689423CEF0B000CC3F67 /* AAQSetImageRowView.swift */; };
+		044968C423CEF0B000CC3F67 /* ZAABaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689823CEF0B000CC3F67 /* ZAABaseNavigationController.swift */; };
+		044968C523CEF0B000CC3F67 /* YZWBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689923CEF0B000CC3F67 /* YZWBaseNavigationController.swift */; };
+		044968C623CEF0B000CC3F67 /* YZWIrregularityContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689B23CEF0B000CC3F67 /* YZWIrregularityContentView.swift */; };
+		044968C723CEF0B000CC3F67 /* ASDTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689C23CEF0B000CC3F67 /* ASDTabbarController.swift */; };
+		044968C823CEF0B000CC3F67 /* YZWEsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689D23CEF0B000CC3F67 /* YZWEsTabBarController.swift */; };
+		044968C923CEF0B000CC3F67 /* AAQEditChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449689F23CEF0B000CC3F67 /* AAQEditChooseView.swift */; };
+		044968CA23CEF0B000CC3F67 /* AAQEditChooseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044968A023CEF0B000CC3F67 /* AAQEditChooseCell.swift */; };
+		044968CB23CEF0B000CC3F67 /* AAQEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044968A123CEF0B000CC3F67 /* AAQEditController.swift */; };
+		044968CC23CEF0B000CC3F67 /* YZWCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044968A323CEF0B000CC3F67 /* YZWCardListView.swift */; };
+		044968CD23CEF0B000CC3F67 /* YZWCardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044968A423CEF0B000CC3F67 /* YZWCardCollectionCell.swift */; };
+		044968CE23CEF0B000CC3F67 /* YZWBookMarkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044968A523CEF0B000CC3F67 /* YZWBookMarkController.swift */; };
+		044968CF23CEF0B000CC3F67 /* YZWCardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044968A623CEF0B000CC3F67 /* YZWCardFlowLayout.swift */; };
+		044968D823D006A300CC3F67 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044968DA23D006A300CC3F67 /* Localizable.strings */; };
+		BBB5FA656615E906ED246AAE /* Pods_wuhangwallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8689F568814218362C4BD2AC /* Pods_wuhangwallpaper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0449685723CEEF8100CC3F67 /* 吾行壁纸.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "吾行壁纸.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0449685A23CEEF8100CC3F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0449685C23CEEF8100CC3F67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0449685E23CEEF8100CC3F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0449686123CEEF8100CC3F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0449686323CEEF8300CC3F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0449686623CEEF8300CC3F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0449686823CEEF8300CC3F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0449686F23CEF0AF00CC3F67 /* UIViewController+controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+controller.swift"; sourceTree = "<group>"; };
+		0449687023CEF0AF00CC3F67 /* UIImage+image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+image.swift"; sourceTree = "<group>"; };
+		0449687123CEF0AF00CC3F67 /* NSObject+Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Object.swift"; sourceTree = "<group>"; };
+		0449687223CEF0AF00CC3F67 /* NSString+string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+string.swift"; sourceTree = "<group>"; };
+		0449687323CEF0AF00CC3F67 /* UIFont+font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+font.swift"; sourceTree = "<group>"; };
+		0449687423CEF0AF00CC3F67 /* UIView+view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+view.swift"; sourceTree = "<group>"; };
+		0449687523CEF0AF00CC3F67 /* UIColor+color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+color.swift"; sourceTree = "<group>"; };
+		0449687623CEF0AF00CC3F67 /* String+string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+string.swift"; sourceTree = "<group>"; };
+		0449687723CEF0AF00CC3F67 /* YZWMathSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWMathSize.swift; sourceTree = "<group>"; };
+		0449687823CEF0AF00CC3F67 /* AAQConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQConst.swift; sourceTree = "<group>"; };
+		0449687923CEF0AF00CC3F67 /* NSString+config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+config.swift"; sourceTree = "<group>"; };
+		0449687B23CEF0AF00CC3F67 /* AAQColorSingle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQColorSingle.swift; sourceTree = "<group>"; };
+		0449687D23CEF0AF00CC3F67 /* AAQColorListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQColorListCell.swift; sourceTree = "<group>"; };
+		0449687E23CEF0AF00CC3F67 /* AAQColorListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQColorListView.swift; sourceTree = "<group>"; };
+		0449687F23CEF0AF00CC3F67 /* AAQColorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQColorListViewController.swift; sourceTree = "<group>"; };
+		0449688123CEF0AF00CC3F67 /* YZWBaseTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWBaseTableCell.swift; sourceTree = "<group>"; };
+		0449688223CEF0AF00CC3F67 /* YZWAboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWAboutController.swift; sourceTree = "<group>"; };
+		0449688323CEF0AF00CC3F67 /* YZWAboutTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWAboutTableCell.swift; sourceTree = "<group>"; };
+		0449688523CEF0AF00CC3F67 /* AAQFontCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQFontCell.swift; sourceTree = "<group>"; };
+		0449688623CEF0AF00CC3F67 /* AAQFontListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQFontListView.swift; sourceTree = "<group>"; };
+		0449688723CEF0AF00CC3F67 /* AAQFontListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQFontListController.swift; sourceTree = "<group>"; };
+		0449688923CEF0B000CC3F67 /* AAQColorCollectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQColorCollectView.swift; sourceTree = "<group>"; };
+		0449688A23CEF0B000CC3F67 /* AAQColorCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQColorCollectionCell.swift; sourceTree = "<group>"; };
+		0449688D23CEF0B000CC3F67 /* AAQPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQPreviewController.swift; sourceTree = "<group>"; };
+		0449688F23CEF0B000CC3F67 /* AAQSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQSettingView.swift; sourceTree = "<group>"; };
+		0449689123CEF0B000CC3F67 /* AAQSetColorRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQSetColorRowView.swift; sourceTree = "<group>"; };
+		0449689223CEF0B000CC3F67 /* AAQSetTextRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQSetTextRowView.swift; sourceTree = "<group>"; };
+		0449689323CEF0B000CC3F67 /* AAQSetFontRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQSetFontRowView.swift; sourceTree = "<group>"; };
+		0449689423CEF0B000CC3F67 /* AAQSetImageRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQSetImageRowView.swift; sourceTree = "<group>"; };
+		0449689823CEF0B000CC3F67 /* ZAABaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZAABaseNavigationController.swift; sourceTree = "<group>"; };
+		0449689923CEF0B000CC3F67 /* YZWBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWBaseNavigationController.swift; sourceTree = "<group>"; };
+		0449689B23CEF0B000CC3F67 /* YZWIrregularityContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWIrregularityContentView.swift; sourceTree = "<group>"; };
+		0449689C23CEF0B000CC3F67 /* ASDTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDTabbarController.swift; sourceTree = "<group>"; };
+		0449689D23CEF0B000CC3F67 /* YZWEsTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWEsTabBarController.swift; sourceTree = "<group>"; };
+		0449689F23CEF0B000CC3F67 /* AAQEditChooseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQEditChooseView.swift; sourceTree = "<group>"; };
+		044968A023CEF0B000CC3F67 /* AAQEditChooseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQEditChooseCell.swift; sourceTree = "<group>"; };
+		044968A123CEF0B000CC3F67 /* AAQEditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAQEditController.swift; sourceTree = "<group>"; };
+		044968A323CEF0B000CC3F67 /* YZWCardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWCardListView.swift; sourceTree = "<group>"; };
+		044968A423CEF0B000CC3F67 /* YZWCardCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWCardCollectionCell.swift; sourceTree = "<group>"; };
+		044968A523CEF0B000CC3F67 /* YZWBookMarkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWBookMarkController.swift; sourceTree = "<group>"; };
+		044968A623CEF0B000CC3F67 /* YZWCardFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZWCardFlowLayout.swift; sourceTree = "<group>"; };
+		044968D023D0067500CC3F67 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		044968D123D0067500CC3F67 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		044968D223D0067900CC3F67 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		044968D323D0067900CC3F67 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		044968D423D0068200CC3F67 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		044968D523D0068200CC3F67 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		044968D923D006A300CC3F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		044968DB23D006A400CC3F67 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		044968DC23D006A500CC3F67 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		044968DD23D006A700CC3F67 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D6810A96382FAA6B37407F2 /* Pods-wuhangwallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuhangwallpaper.debug.xcconfig"; path = "Target Support Files/Pods-wuhangwallpaper/Pods-wuhangwallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		8689F568814218362C4BD2AC /* Pods_wuhangwallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wuhangwallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB80687B3FAA2F9B5E26E649 /* Pods-wuhangwallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wuhangwallpaper.release.xcconfig"; path = "Target Support Files/Pods-wuhangwallpaper/Pods-wuhangwallpaper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0449685423CEEF8100CC3F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB5FA656615E906ED246AAE /* Pods_wuhangwallpaper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0449684E23CEEF8100CC3F67 = {
+			isa = PBXGroup;
+			children = (
+				0449685923CEEF8100CC3F67 /* wuhangwallpaper */,
+				0449685823CEEF8100CC3F67 /* Products */,
+				82B9AF110EC25B1990761746 /* Pods */,
+				9515023036F13326E66AA4B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0449685823CEEF8100CC3F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0449685723CEEF8100CC3F67 /* 吾行壁纸.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0449685923CEEF8100CC3F67 /* wuhangwallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				0449688023CEF0AF00CC3F67 /* about */,
+				0449687C23CEF0AF00CC3F67 /* colorList */,
+				0449689E23CEF0B000CC3F67 /* edit */,
+				0449686E23CEF0AF00CC3F67 /* Extension */,
+				0449689523CEF0B000CC3F67 /* Inherit */,
+				0449687A23CEF0AF00CC3F67 /* Instance */,
+				0449688B23CEF0B000CC3F67 /* made */,
+				044968A223CEF0B000CC3F67 /* productionList */,
+				0449688423CEF0AF00CC3F67 /* textList */,
+				0449688823CEF0B000CC3F67 /* View */,
+				0449685A23CEEF8100CC3F67 /* AppDelegate.swift */,
+				0449685C23CEEF8100CC3F67 /* SceneDelegate.swift */,
+				0449685E23CEEF8100CC3F67 /* ViewController.swift */,
+				0449686023CEEF8100CC3F67 /* Main.storyboard */,
+				0449686323CEEF8300CC3F67 /* Assets.xcassets */,
+				0449686523CEEF8300CC3F67 /* LaunchScreen.storyboard */,
+				0449686823CEEF8300CC3F67 /* Info.plist */,
+				044968DA23D006A300CC3F67 /* Localizable.strings */,
+			);
+			path = wuhangwallpaper;
+			sourceTree = "<group>";
+		};
+		0449686E23CEF0AF00CC3F67 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0449686F23CEF0AF00CC3F67 /* UIViewController+controller.swift */,
+				0449687023CEF0AF00CC3F67 /* UIImage+image.swift */,
+				0449687123CEF0AF00CC3F67 /* NSObject+Object.swift */,
+				0449687223CEF0AF00CC3F67 /* NSString+string.swift */,
+				0449687323CEF0AF00CC3F67 /* UIFont+font.swift */,
+				0449687423CEF0AF00CC3F67 /* UIView+view.swift */,
+				0449687523CEF0AF00CC3F67 /* UIColor+color.swift */,
+				0449687623CEF0AF00CC3F67 /* String+string.swift */,
+				0449687723CEF0AF00CC3F67 /* YZWMathSize.swift */,
+				0449687823CEF0AF00CC3F67 /* AAQConst.swift */,
+				0449687923CEF0AF00CC3F67 /* NSString+config.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0449687A23CEF0AF00CC3F67 /* Instance */ = {
+			isa = PBXGroup;
+			children = (
+				0449687B23CEF0AF00CC3F67 /* AAQColorSingle.swift */,
+			);
+			path = Instance;
+			sourceTree = "<group>";
+		};
+		0449687C23CEF0AF00CC3F67 /* colorList */ = {
+			isa = PBXGroup;
+			children = (
+				0449687D23CEF0AF00CC3F67 /* AAQColorListCell.swift */,
+				0449687E23CEF0AF00CC3F67 /* AAQColorListView.swift */,
+				0449687F23CEF0AF00CC3F67 /* AAQColorListViewController.swift */,
+			);
+			path = colorList;
+			sourceTree = "<group>";
+		};
+		0449688023CEF0AF00CC3F67 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				0449688123CEF0AF00CC3F67 /* YZWBaseTableCell.swift */,
+				0449688223CEF0AF00CC3F67 /* YZWAboutController.swift */,
+				0449688323CEF0AF00CC3F67 /* YZWAboutTableCell.swift */,
+			);
+			path = about;
+			sourceTree = "<group>";
+		};
+		0449688423CEF0AF00CC3F67 /* textList */ = {
+			isa = PBXGroup;
+			children = (
+				0449688523CEF0AF00CC3F67 /* AAQFontCell.swift */,
+				0449688623CEF0AF00CC3F67 /* AAQFontListView.swift */,
+				0449688723CEF0AF00CC3F67 /* AAQFontListController.swift */,
+			);
+			path = textList;
+			sourceTree = "<group>";
+		};
+		0449688823CEF0B000CC3F67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0449688923CEF0B000CC3F67 /* AAQColorCollectView.swift */,
+				0449688A23CEF0B000CC3F67 /* AAQColorCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0449688B23CEF0B000CC3F67 /* made */ = {
+			isa = PBXGroup;
+			children = (
+				0449688C23CEF0B000CC3F67 /* Controller */,
+				0449688E23CEF0B000CC3F67 /* view */,
+				0449689023CEF0B000CC3F67 /* SetRowView */,
+			);
+			path = made;
+			sourceTree = "<group>";
+		};
+		0449688C23CEF0B000CC3F67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0449688D23CEF0B000CC3F67 /* AAQPreviewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0449688E23CEF0B000CC3F67 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0449688F23CEF0B000CC3F67 /* AAQSettingView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0449689023CEF0B000CC3F67 /* SetRowView */ = {
+			isa = PBXGroup;
+			children = (
+				0449689123CEF0B000CC3F67 /* AAQSetColorRowView.swift */,
+				0449689223CEF0B000CC3F67 /* AAQSetTextRowView.swift */,
+				0449689323CEF0B000CC3F67 /* AAQSetFontRowView.swift */,
+				0449689423CEF0B000CC3F67 /* AAQSetImageRowView.swift */,
+			);
+			path = SetRowView;
+			sourceTree = "<group>";
+		};
+		0449689523CEF0B000CC3F67 /* Inherit */ = {
+			isa = PBXGroup;
+			children = (
+				0449689623CEF0B000CC3F67 /* Controller */,
+			);
+			path = Inherit;
+			sourceTree = "<group>";
+		};
+		0449689623CEF0B000CC3F67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0449689723CEF0B000CC3F67 /* NavigationBarController */,
+				0449689A23CEF0B000CC3F67 /* TabbarController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0449689723CEF0B000CC3F67 /* NavigationBarController */ = {
+			isa = PBXGroup;
+			children = (
+				0449689823CEF0B000CC3F67 /* ZAABaseNavigationController.swift */,
+				0449689923CEF0B000CC3F67 /* YZWBaseNavigationController.swift */,
+			);
+			path = NavigationBarController;
+			sourceTree = "<group>";
+		};
+		0449689A23CEF0B000CC3F67 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				0449689B23CEF0B000CC3F67 /* YZWIrregularityContentView.swift */,
+				0449689C23CEF0B000CC3F67 /* ASDTabbarController.swift */,
+				0449689D23CEF0B000CC3F67 /* YZWEsTabBarController.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		0449689E23CEF0B000CC3F67 /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				0449689F23CEF0B000CC3F67 /* AAQEditChooseView.swift */,
+				044968A023CEF0B000CC3F67 /* AAQEditChooseCell.swift */,
+				044968A123CEF0B000CC3F67 /* AAQEditController.swift */,
+			);
+			path = edit;
+			sourceTree = "<group>";
+		};
+		044968A223CEF0B000CC3F67 /* productionList */ = {
+			isa = PBXGroup;
+			children = (
+				044968A323CEF0B000CC3F67 /* YZWCardListView.swift */,
+				044968A423CEF0B000CC3F67 /* YZWCardCollectionCell.swift */,
+				044968A523CEF0B000CC3F67 /* YZWBookMarkController.swift */,
+				044968A623CEF0B000CC3F67 /* YZWCardFlowLayout.swift */,
+			);
+			path = productionList;
+			sourceTree = "<group>";
+		};
+		82B9AF110EC25B1990761746 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D6810A96382FAA6B37407F2 /* Pods-wuhangwallpaper.debug.xcconfig */,
+				BB80687B3FAA2F9B5E26E649 /* Pods-wuhangwallpaper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9515023036F13326E66AA4B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8689F568814218362C4BD2AC /* Pods_wuhangwallpaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0449685623CEEF8100CC3F67 /* wuhangwallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0449686B23CEEF8300CC3F67 /* Build configuration list for PBXNativeTarget "wuhangwallpaper" */;
+			buildPhases = (
+				798303D5FC3847D878CA0EAB /* [CP] Check Pods Manifest.lock */,
+				0449685323CEEF8100CC3F67 /* Sources */,
+				0449685423CEEF8100CC3F67 /* Frameworks */,
+				0449685523CEEF8100CC3F67 /* Resources */,
+				552FD359A36D7E84461F83B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wuhangwallpaper;
+			productName = wuhangwallpaper;
+			productReference = 0449685723CEEF8100CC3F67 /* 吾行壁纸.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0449684F23CEEF8100CC3F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = bh;
+				TargetAttributes = {
+					0449685623CEEF8100CC3F67 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 0449685223CEEF8100CC3F67 /* Build configuration list for PBXProject "wuhangwallpaper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				ko,
+				"zh-Hans",
+			);
+			mainGroup = 0449684E23CEEF8100CC3F67;
+			productRefGroup = 0449685823CEEF8100CC3F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0449685623CEEF8100CC3F67 /* wuhangwallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0449685523CEEF8100CC3F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0449686723CEEF8300CC3F67 /* LaunchScreen.storyboard in Resources */,
+				044968D823D006A300CC3F67 /* Localizable.strings in Resources */,
+				0449686423CEEF8300CC3F67 /* Assets.xcassets in Resources */,
+				0449686223CEEF8100CC3F67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		552FD359A36D7E84461F83B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wuhangwallpaper/Pods-wuhangwallpaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-wuhangwallpaper/Pods-wuhangwallpaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-wuhangwallpaper/Pods-wuhangwallpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		798303D5FC3847D878CA0EAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wuhangwallpaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0449685323CEEF8100CC3F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044968CF23CEF0B000CC3F67 /* YZWCardFlowLayout.swift in Sources */,
+				044968A923CEF0B000CC3F67 /* NSObject+Object.swift in Sources */,
+				044968B123CEF0B000CC3F67 /* NSString+config.swift in Sources */,
+				044968B923CEF0B000CC3F67 /* AAQFontCell.swift in Sources */,
+				044968CE23CEF0B000CC3F67 /* YZWBookMarkController.swift in Sources */,
+				044968B523CEF0B000CC3F67 /* AAQColorListViewController.swift in Sources */,
+				044968B623CEF0B000CC3F67 /* YZWBaseTableCell.swift in Sources */,
+				044968BD23CEF0B000CC3F67 /* AAQColorCollectionCell.swift in Sources */,
+				044968A723CEF0B000CC3F67 /* UIViewController+controller.swift in Sources */,
+				044968BF23CEF0B000CC3F67 /* AAQSettingView.swift in Sources */,
+				044968C723CEF0B000CC3F67 /* ASDTabbarController.swift in Sources */,
+				044968C323CEF0B000CC3F67 /* AAQSetImageRowView.swift in Sources */,
+				044968CA23CEF0B000CC3F67 /* AAQEditChooseCell.swift in Sources */,
+				044968AC23CEF0B000CC3F67 /* UIView+view.swift in Sources */,
+				044968C623CEF0B000CC3F67 /* YZWIrregularityContentView.swift in Sources */,
+				044968AD23CEF0B000CC3F67 /* UIColor+color.swift in Sources */,
+				044968AA23CEF0B000CC3F67 /* NSString+string.swift in Sources */,
+				044968B823CEF0B000CC3F67 /* YZWAboutTableCell.swift in Sources */,
+				044968AB23CEF0B000CC3F67 /* UIFont+font.swift in Sources */,
+				044968C423CEF0B000CC3F67 /* ZAABaseNavigationController.swift in Sources */,
+				044968A823CEF0B000CC3F67 /* UIImage+image.swift in Sources */,
+				044968AE23CEF0B000CC3F67 /* String+string.swift in Sources */,
+				044968B423CEF0B000CC3F67 /* AAQColorListView.swift in Sources */,
+				044968C023CEF0B000CC3F67 /* AAQSetColorRowView.swift in Sources */,
+				0449685F23CEEF8100CC3F67 /* ViewController.swift in Sources */,
+				0449685B23CEEF8100CC3F67 /* AppDelegate.swift in Sources */,
+				044968C123CEF0B000CC3F67 /* AAQSetTextRowView.swift in Sources */,
+				044968CC23CEF0B000CC3F67 /* YZWCardListView.swift in Sources */,
+				044968BE23CEF0B000CC3F67 /* AAQPreviewController.swift in Sources */,
+				044968C923CEF0B000CC3F67 /* AAQEditChooseView.swift in Sources */,
+				044968BB23CEF0B000CC3F67 /* AAQFontListController.swift in Sources */,
+				044968C223CEF0B000CC3F67 /* AAQSetFontRowView.swift in Sources */,
+				0449685D23CEEF8100CC3F67 /* SceneDelegate.swift in Sources */,
+				044968BA23CEF0B000CC3F67 /* AAQFontListView.swift in Sources */,
+				044968CB23CEF0B000CC3F67 /* AAQEditController.swift in Sources */,
+				044968AF23CEF0B000CC3F67 /* YZWMathSize.swift in Sources */,
+				044968CD23CEF0B000CC3F67 /* YZWCardCollectionCell.swift in Sources */,
+				044968B723CEF0B000CC3F67 /* YZWAboutController.swift in Sources */,
+				044968B223CEF0B000CC3F67 /* AAQColorSingle.swift in Sources */,
+				044968B023CEF0B000CC3F67 /* AAQConst.swift in Sources */,
+				044968C523CEF0B000CC3F67 /* YZWBaseNavigationController.swift in Sources */,
+				044968B323CEF0B000CC3F67 /* AAQColorListCell.swift in Sources */,
+				044968BC23CEF0B000CC3F67 /* AAQColorCollectView.swift in Sources */,
+				044968C823CEF0B000CC3F67 /* YZWEsTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0449686023CEEF8100CC3F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0449686123CEEF8100CC3F67 /* Base */,
+				044968D023D0067500CC3F67 /* ja */,
+				044968D223D0067900CC3F67 /* ko */,
+				044968D423D0068200CC3F67 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0449686523CEEF8300CC3F67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0449686623CEEF8300CC3F67 /* Base */,
+				044968D123D0067500CC3F67 /* ja */,
+				044968D323D0067900CC3F67 /* ko */,
+				044968D523D0068200CC3F67 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		044968DA23D006A300CC3F67 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044968D923D006A300CC3F67 /* en */,
+				044968DB23D006A400CC3F67 /* zh-Hans */,
+				044968DC23D006A500CC3F67 /* ja */,
+				044968DD23D006A700CC3F67 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0449686923CEEF8300CC3F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0449686A23CEEF8300CC3F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0449686C23CEEF8300CC3F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6810A96382FAA6B37407F2 /* Pods-wuhangwallpaper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = wuhangwallpaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = wuhang.wuhangwallpaper;
+				PRODUCT_NAME = "吾行壁纸";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0449686D23CEEF8300CC3F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB80687B3FAA2F9B5E26E649 /* Pods-wuhangwallpaper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = wuhangwallpaper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = wuhang.wuhangwallpaper;
+				PRODUCT_NAME = "吾行壁纸";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0449685223CEEF8100CC3F67 /* Build configuration list for PBXProject "wuhangwallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0449686923CEEF8300CC3F67 /* Debug */,
+				0449686A23CEEF8300CC3F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0449686B23CEEF8300CC3F67 /* Build configuration list for PBXNativeTarget "wuhangwallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0449686C23CEEF8300CC3F67 /* Debug */,
+				0449686D23CEEF8300CC3F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0449684F23CEEF8100CC3F67 /* Project object */;
+}

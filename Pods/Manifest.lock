@@ -1,0 +1,28 @@
+PODS:
+  - ESTabBarController-swift (2.7)
+  - IQKeyboardManager (6.3.0)
+  - TangramKit (1.4.0)
+  - Toast-Swift (5.0.0)
+
+DEPENDENCIES:
+  - ESTabBarController-swift
+  - IQKeyboardManager (~> 6.3.0)
+  - TangramKit (~> 1.4.0)
+  - Toast-Swift (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ESTabBarController-swift
+    - IQKeyboardManager
+    - TangramKit
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
+  TangramKit: 15ccb6480f0e32c284f0a076542a607226e158dd
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+
+PODFILE CHECKSUM: 7f6b6d499ee660a438826c277c52afcfce0c2ed4
+
+COCOAPODS: 1.8.3

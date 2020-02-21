@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  wuhangwallpaper
+
+  Created by mac on 2020/1/16.
+  Copyright © 2020 bh. All rights reserved.
+*/
+
+
+color = "Color";
+font = "Font";
+production = "Works";
+textWallPaper = "Text Wallpaper";
+about = "About";
+word = "Words";
+fontName = "Font";
+type = "Font Size";
+fontSize = "Style";
+textColor = "Font Color";
+alignment = " Alignment";
+textEdge = "Word Spacing";
+lineWidth = "Line Width";
+lineEdge = "Line Spacing";
+borderWidth = "Border Width";
+borderColor = "Border Color";
+none = "none";
+narrow = "narrow";
+wide = "wide";
+medium = "medium";
+share = "Share";
+version = "Version";
+feedback = "feedback";
+backgroundColor = "Background Color";
+aliLeft = "left";
+aliCenter = "center";
+aliRight = "right";
+warmTips = "";//"click to edit";//"\t warm tips: \n (1) click the screen to set wallpaper \n (2) long press the screen to save wallpaper \n (3) swipe left or right to switch background color";
+fontShown = "font";
